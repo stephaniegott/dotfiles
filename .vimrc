@@ -1,5 +1,5 @@
 "
-"set nocompatible            " be iMproved, required
+set nocompatible            " be iMproved, required
 "filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -15,6 +15,10 @@ Plugin 'tpope/vim-sensible'
 " Plugin 'nanotech/jellybeans.vim'
 
 " Plugin 'Autoclose'
+
+Plugin 'scrooloose/nerdcommenter'
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
 
 Plugin 'scrooloose/syntastic'
 let g:syntastic_cpp_compiler = 'clang++'
@@ -45,9 +49,12 @@ set number
 set relativenumber
 set tabstop=4
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-set hlsearch
+set nohlsearch
 
-colorscheme monokai
+" colorscheme monokai
 
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 :set list
+set statusline+=%F
+
+set pastetoggle=<F9>
