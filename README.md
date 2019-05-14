@@ -3,7 +3,7 @@
 ### Install Programs
 - git
 - tmux
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zs)
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [ranger](https://github.com/ranger/ranger)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
