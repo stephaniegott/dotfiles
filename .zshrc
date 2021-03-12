@@ -83,14 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias start-bazel="docker-compose up -d && docker attach bazel"
-alias attach-bazel="docker attach bazel"
-alias kitty="/home/stephanie/.local/kitty.app/bin/kitty"
-
 if [ "$TMUX" = "" ]; then tmux; fi
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/stephanie/google-cloud-sdk/path.zsh.inc' ]; then . '/home/stephanie/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/stephanie/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/stephanie/google-cloud-sdk/completion.zsh.inc'; fi
+# ranger
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'

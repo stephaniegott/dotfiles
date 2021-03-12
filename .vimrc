@@ -51,7 +51,8 @@ set tabstop=4
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set nohlsearch
 
-" colorscheme monokai
+syntax enable
+colorscheme monokai
 
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 :set list
