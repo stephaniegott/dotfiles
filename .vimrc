@@ -12,10 +12,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 
-" Plugin 'nanotech/jellybeans.vim'
-
-" Plugin 'Autoclose'
-
 Plugin 'scrooloose/nerdcommenter'
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
@@ -25,9 +21,6 @@ let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 Plugin 'tpope/vim-surround'
-" Plugin 'Valloric/YouCompleteMe'
-" Plugin 'Yggdroot/indentLine'
-" Plugin 'flazz/vim-colorschemes'
 Plugin 'mattn/emmet-vim'
 
 call vundle#end()            " required
@@ -49,7 +42,7 @@ set number
 set relativenumber
 set tabstop=4
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-set nohlsearch
+" set nohlsearch
 
 syntax enable
 colorscheme monokai
